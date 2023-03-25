@@ -20,6 +20,8 @@ The dataset had no duplicates, so beginning with the id,name and long_name colum
 #### Photo_Url, Player_Url
 these columns contained metadata about the players which includes a link to their pictures and websites. i deleted these columns since they wouldnt be needed in the analysis phase
 
+![pot before](https://user-images.githubusercontent.com/119857809/227742839-d5d27cdb-875d-48e1-899c-50534d393383.jpg), 
+
 #### Potential analysis(POT) and Overall analysis(OVA)
 in the data dictionary provided, the columns were advides to be in percentages and this was done by dividing the column by 100, and then creating a new column where   the datatype was changed to percentage and then renamed appropriately
 
