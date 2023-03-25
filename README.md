@@ -112,6 +112,14 @@ These columns had the star symbol in each row which represented their ratings an
 the same approach used in the values column was applied here, by creating a custom column and writing m-language 
 where i multiplied values that had k in them by 1000 and then the appropriate datatype was selected 
 
+![hits before](https://user-images.githubusercontent.com/119857809/227745251-f42bdb94-c776-4c5e-88a2-ae8ca0d37eda.jpg)
+![hits after](https://user-images.githubusercontent.com/119857809/227745253-d6cd6198-20fe-4f4a-9af3-4b29b5796ec5.jpg)
+
+### Conclusion
+the fifa dataset was very messy, but participating in this challenge was a good way to improve my skills and learn more
+The dataset has been transfromed and is ready for analysis.
+
+
 
 
 
