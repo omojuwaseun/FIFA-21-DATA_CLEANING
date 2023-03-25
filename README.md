@@ -47,5 +47,8 @@ this provides information on the type of agreement the players have with their f
 ![contract before](https://user-images.githubusercontent.com/119857809/227742950-9af0422d-9546-4530-839c-0023a5a109d2.jpg),
 ![contract after](https://user-images.githubusercontent.com/119857809/227742959-9c55a944-73ce-4450-bef4-38eee024ad0b.jpg)
 
+####  Position
+some players had 2 or more positions that they played and the best way to handle this column was by keeping the first position in the column
+this was done by splitting delimeter after which i kept the first column
 
 
