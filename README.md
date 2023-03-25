@@ -1,4 +1,8 @@
 ## FIFA-21-DATA_CLEANING
+
+![fifa_image](https://user-images.githubusercontent.com/119857809/227741417-2090d9d1-30e1-4080-898d-e161f95cf2dd.png)
+
+
 CLEANING  FIFA-21 DATASET USING MICROSOFT POWER QUERY
 
  I joined a data cleaning challenge that was hosted in the tech space on twitter, and this project was aimed at transforming the messy data into a clean usable one that would be usable for future analysis. I cleaned this data using tools available on the power query editor and this documentation describes how it was acheived
