@@ -98,6 +98,10 @@ else Number.From( Text.BeforeDelimiter([Release Clause],"K")) * 1000 ) * 1.07)
 ```
 i also corrected the datatype accordingly
 
+![wage value before](https://user-images.githubusercontent.com/119857809/227745037-742d944a-3ffa-4d47-b817-f38720043031.jpg)
+![wage value after](https://user-images.githubusercontent.com/119857809/227745043-4789594e-7e16-4c96-94f1-8a8738cc2fa8.jpg)
+
+
 
 
 
