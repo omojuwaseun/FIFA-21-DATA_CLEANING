@@ -30,7 +30,6 @@ in the data dictionary provided, the columns were advides to be in percentages a
 #### Contract 
 the contract column had data in different formats and these inconsistencies needed to be fixed. To do this, i created the agreement  using conditional statements.
 
-
 ##### The contract start and end date columns
 this was done by splitting of columns by delimeter(-) which was formally(~), and this splitting displays only the year information, which is as a result of the information given in the dataset
 
@@ -41,6 +40,9 @@ clause 1: if Contract equals Free, output Free
 Else If: if Contract contains Loan, Output Loan
 Else: Contract
 this provides information on the type of agreement the players have with their football clubs 
+
+![contract before](https://user-images.githubusercontent.com/119857809/227742950-9af0422d-9546-4530-839c-0023a5a109d2.jpg),
+![contract after](https://user-images.githubusercontent.com/119857809/227742959-9c55a944-73ce-4450-bef4-38eee024ad0b.jpg)
 
 
 
