@@ -105,6 +105,8 @@ i also corrected the datatype accordingly
 These columns had the star symbol in each row which represented their ratings and this was removed using the replace function and the data type was changed to numeric.
 
 ![ir,sm,wf before](https://user-images.githubusercontent.com/119857809/227745205-6885adc8-19c2-4ca9-bb55-d8856c96049c.jpg)
+![ir,sm,wf after](https://user-images.githubusercontent.com/119857809/227745674-292cfe34-7676-48a6-9a20-e9201ac32f53.jpg)
+
 
 
 ### Hits
