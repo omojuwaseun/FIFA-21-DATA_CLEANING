@@ -37,8 +37,11 @@ this was done by splitting of columns by delimeter(-) which was formally(~), and
 to create this column, i used a conditionnal statement with two clauses and an else statement that stated:
 
 clause 1: if Contract equals Free, output Free
+
 Else If: if Contract contains Loan, Output Loan
+
 Else: Contract
+
 this provides information on the type of agreement the players have with their football clubs 
 
 ![contract before](https://user-images.githubusercontent.com/119857809/227742950-9af0422d-9546-4530-839c-0023a5a109d2.jpg),
