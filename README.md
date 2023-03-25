@@ -75,8 +75,7 @@ The majority of the values in this column displays height in centimeter 150cm. w
 in
     Result)
 ````
-![height before](https://user-images.githubusercontent.com/119857809/227744808-922b8d78-0adf-4f81-ba7b-540ed1d3a328.jpg)
-![height after](https://user-images.githubusercontent.com/119857809/227744811-3bdc4827-eedc-43f0-aaac-78b06c303c12.jpg)
+![height before](https://user-images.githubusercontent.com/119857809/227744808-922b8d78-0adf-4f81-ba7b-540ed1d3a328.jpg), ![height after](https://user-images.githubusercontent.com/119857809/227744811-3bdc4827-eedc-43f0-aaac-78b06c303c12.jpg)
 
 
 #### Value, Wage, Release clause
