@@ -72,19 +72,4 @@ in
     Result)
     ````
     
-#### Value 
-    (if Text.Contains([Value], "M") then
-Number.From(Text.BeforeDelimiter([Value], "M")) * 1000000
-else Number.From(Text.BeforeDelimiter ([Value],"K")) * 1000) * 1.07)
-
-#### Wage
-( if Text.Contains([Wage],"K") then 
-Number.From( Text.BeforeDelimiter ([Wage], "K")) * 1000
-else Number.From( [Wage])) * 1.07)
-
-#### Release Clause
-
-( if Text.Contains ([Release Clause], "M") then 
-Number.From( Text.BeforeDelimiter ([Release Clause], "M")) * 1000000 
-else Number.From( Text.BeforeDelimiter([Release Clause],"K")) * 1000 ) * 1.07)
 
