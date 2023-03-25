@@ -117,7 +117,7 @@ where i multiplied values that had k in them by 1000 and then the appropriate da
 
 ### Conclusion
 the fifa dataset was very messy, but participating in this challenge was a good way to improve my skills and learn more
-The dataset has been transfromed and is ready for analysis.
+The dataset has been transformed and is ready for analysis.
 
 
 
