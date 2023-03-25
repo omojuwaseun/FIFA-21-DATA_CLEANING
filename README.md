@@ -64,14 +64,15 @@ else Text.BeforeDelimiter([Weight],"lbs"))
 ```
 
 ####  Weight
-`````` cm = if Text.Contains([Height], "cm") then Number.From(Text.BeforeDelimiter([Height], "cm")) else null,
+```` cm = if Text.Contains([Height], "cm") then Number.From(Text.BeforeDelimiter([Height], "cm")) else null,
     ft = if Text.Contains([Height], "'") then Number.From(Text.BeforeDelimiter([Height], "'")) else null,
     inch = if Text.Contains([Height], """") then Number.From(Text.BetweenDelimiters([Height], "'", """")) else null,
     Result = if cm <> null then cm else if ft <> null and inch <> null then (ft * 30.48) + (inch * 2.54) else null
 in
     Result)
-    ``````
- #### Value 
+    ````
+    
+#### Value 
     (if Text.Contains([Value], "M") then
 Number.From(Text.BeforeDelimiter([Value], "M")) * 1000000
 else Number.From(Text.BeforeDelimiter ([Value],"K")) * 1000) * 1.07)
