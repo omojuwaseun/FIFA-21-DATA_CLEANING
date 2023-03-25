@@ -61,6 +61,9 @@ According to the data dictionary, this column had to be in lbs, so to do this i 
 Number.From(Text.BeforeDelimiter([Weight], "kg")) * 2.205
 else Text.BeforeDelimiter([Weight],"lbs"))
 ```
+![weight before](https://user-images.githubusercontent.com/119857809/227744759-db63bd32-2554-476c-83f9-9add4b5f73f1.jpg)
+![weight in lbs](https://user-images.githubusercontent.com/119857809/227744763-2e291a50-6e84-4d6b-a68c-a5ac71c05c07.jpg)
+
 
 ####  Height
 The majority of the values in this column displays height in centimeter 150cm. while others uses feet and inches  5'10" and this column needed to be in cm,and to do this i created a custom column and renamed  to Height in cm, the M-language was also used here
