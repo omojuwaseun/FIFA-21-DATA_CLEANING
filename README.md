@@ -51,4 +51,7 @@ this provides information on the type of agreement the players have with their f
 some players had 2 or more positions that they played and the best way to handle this column was by keeping the first position in the column
 this was done by splitting delimeter after which i kept the first column
 
+![positions before](https://user-images.githubusercontent.com/119857809/227743151-3c50f9b1-15e6-409a-9b4a-06435089c62f.jpg)
+![positions](https://user-images.githubusercontent.com/119857809/227743157-2547641c-c0c0-495f-b0d4-1fa4e9a80785.jpg)
+
 
