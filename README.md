@@ -54,4 +54,36 @@ this was done by splitting delimeter after which i kept the first column
 ![positions before](https://user-images.githubusercontent.com/119857809/227743151-3c50f9b1-15e6-409a-9b4a-06435089c62f.jpg)
 ![positions](https://user-images.githubusercontent.com/119857809/227743157-2547641c-c0c0-495f-b0d4-1fa4e9a80785.jpg)
 
+#### Height
+The majority of the values in this column displays height in centimeter 150cm. while others uses feet and inches  5'10" 
+According to the data dictionary, this column had to be in cm, so to do this i created a custom clumn which i renamed height in cm and used the M language
+
+``` if Text.Contains([Weight],"kg") then 
+Number.From(Text.BeforeDelimiter([Weight], "kg")) * 2.205
+else Text.BeforeDelimiter([Weight],"lbs"))
+```
+
+####  Weight
+`````` cm = if Text.Contains([Height], "cm") then Number.From(Text.BeforeDelimiter([Height], "cm")) else null,
+    ft = if Text.Contains([Height], "'") then Number.From(Text.BeforeDelimiter([Height], "'")) else null,
+    inch = if Text.Contains([Height], """") then Number.From(Text.BetweenDelimiters([Height], "'", """")) else null,
+    Result = if cm <> null then cm else if ft <> null and inch <> null then (ft * 30.48) + (inch * 2.54) else null
+in
+    Result)
+    ``````
+ #### Value 
+    (if Text.Contains([Value], "M") then
+Number.From(Text.BeforeDelimiter([Value], "M")) * 1000000
+else Number.From(Text.BeforeDelimiter ([Value],"K")) * 1000) * 1.07)
+
+#### Wage
+( if Text.Contains([Wage],"K") then 
+Number.From( Text.BeforeDelimiter ([Wage], "K")) * 1000
+else Number.From( [Wage])) * 1.07)
+
+#### Release Clause
+
+( if Text.Contains ([Release Clause], "M") then 
+Number.From( Text.BeforeDelimiter ([Release Clause], "M")) * 1000000 
+else Number.From( Text.BeforeDelimiter([Release Clause],"K")) * 1000 ) * 1.07)
 
