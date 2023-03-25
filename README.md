@@ -75,6 +75,9 @@ The majority of the values in this column displays height in centimeter 150cm. w
 in
     Result)
 ````
+![height before](https://user-images.githubusercontent.com/119857809/227744808-922b8d78-0adf-4f81-ba7b-540ed1d3a328.jpg)
+![height after](https://user-images.githubusercontent.com/119857809/227744811-3bdc4827-eedc-43f0-aaac-78b06c303c12.jpg)
+
 
 #### Value, Wage, Release clause
 these columns had similar inconsistencies, they had the prefix Euros, and also has the suffix M and K which stands for million amd thousands. To adjust this, i removed the euros sign in these columns by replacing the value with nothing and then created a column for each of them where i used the M-language to say that if the value contained 'M' it should multiply by 1000000 but if it had 'K' it should multiply by 1000, then multiply it by 1.07 which is the conversion rate to dollars
