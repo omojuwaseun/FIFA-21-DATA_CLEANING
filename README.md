@@ -94,3 +94,4 @@ else Number.From( Text.BeforeDelimiter([Release Clause],"K")) * 1000 ) * 1.07)
 i also corrected the datatype accordingly
 
 
+
