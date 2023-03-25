@@ -104,6 +104,16 @@ i also corrected the datatype accordingly
 ### IR,SM, W/F
 These columns had the star symbol in each row which represented their ratings and this was removed using the replace function and the data type was changed to numeric.
 
+![ir,sm,wf before](https://user-images.githubusercontent.com/119857809/227745205-6885adc8-19c2-4ca9-bb55-d8856c96049c.jpg)
+![ir,sm,wf after](https://user-images.githubusercontent.com/119857809/227745209-15d12170-e916-4c6e-bd37-6c69b1df238a.jpg)
+
+
+### Hits
+the same approach used in the values column was applied here, by creating a custom column and writing m-language 
+where i multiplied values that had k in them by 1000 and then the appropriate datatype was selected 
+
+
+
 
 
 
