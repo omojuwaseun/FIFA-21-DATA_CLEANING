@@ -54,22 +54,43 @@ this was done by splitting delimeter after which i kept the first column
 ![positions before](https://user-images.githubusercontent.com/119857809/227743151-3c50f9b1-15e6-409a-9b4a-06435089c62f.jpg)
 ![positions](https://user-images.githubusercontent.com/119857809/227743157-2547641c-c0c0-495f-b0d4-1fa4e9a80785.jpg)
 
-#### Height
-The majority of the values in this column displays height in centimeter 150cm. while others uses feet and inches  5'10" 
-According to the data dictionary, this column had to be in cm, so to do this i created a custom clumn which i renamed height in cm and used the M language
+#### Weight
+According to the data dictionary, this column had to be in lbs, so to do this i created a custom column which i renamed weight in lbs and used the M language that interpretes that if the weight column has kg in it, it should multiply by 2.205 which is the conversion rate to lbs else it should leave it as it is 
 
 ``` if Text.Contains([Weight],"kg") then 
 Number.From(Text.BeforeDelimiter([Weight], "kg")) * 2.205
 else Text.BeforeDelimiter([Weight],"lbs"))
 ```
 
-####  Weight
+####  Height
+The majority of the values in this column displays height in centimeter 150cm. while others uses feet and inches  5'10" and this column needed to be in cm,and to do this i created a custom column and renamed  to Height in cm, the M-language was also used here
+
 ```` cm = if Text.Contains([Height], "cm") then Number.From(Text.BeforeDelimiter([Height], "cm")) else null,
     ft = if Text.Contains([Height], "'") then Number.From(Text.BeforeDelimiter([Height], "'")) else null,
     inch = if Text.Contains([Height], """") then Number.From(Text.BetweenDelimiters([Height], "'", """")) else null,
     Result = if cm <> null then cm else if ft <> null and inch <> null then (ft * 30.48) + (inch * 2.54) else null
 in
     Result)
-    ````
-    
+````
+
+#### Value, Wage, Release clause
+these columns had similar inconsistencies, they had the prefix Euros, and also has the suffix M and K which stands for million amd thousands. To adjust this, i removed the euros sign in these columns by replacing the value with nothing and then created a column for each of them where i used the M-language to say that if the value contained 'M' it should multiply by 1000000 but if it had 'K' it should multiply by 1000, then multiply it by 1.07 which is the conversion rate to dollars
+
+#### value
+   ``` (if Text.Contains([Value], "M") then
+Number.From(Text.BeforeDelimiter([Value], "M")) * 1000000
+else Number.From(Text.BeforeDelimiter ([Value],"K")) * 1000) * 1.07)
+```
+#### wage
+``` ( if Text.Contains([Wage],"K") then 
+Number.From( Text.BeforeDelimiter ([Wage], "K")) * 1000
+else Number.From( [Wage])) * 1.07)
+```
+#### release clause
+``` ( if Text.Contains ([Release Clause], "M") then 
+Number.From( Text.BeforeDelimiter ([Release Clause], "M")) * 1000000 
+else Number.From( Text.BeforeDelimiter([Release Clause],"K")) * 1000 ) * 1.07)
+```
+i also corrected the datatype accordingly
+
 
