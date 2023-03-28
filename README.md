@@ -31,7 +31,7 @@ in the data dictionary provided, the columns were advides to be in percentages a
 the contract column had data in different formats and these inconsistencies needed to be fixed. To do this, i created the agreement  using conditional statements.
 
 #### The contract start and end date columns
-this was done by splitting of columns by delimeter(-) which was formally(~), and this splitting displays only the year information, which is as a result of the information given in the dataset
+this was done by splitting of columns by delimeter(-) which was formally(~), and this splitting displays only the year information, which is as a result of the information given in the dataset, In order to be able extract more information from this column, i created three new columns that might be useful when we get to the analysis phase: Agreement, Contract start, Contract end
 
 #### Agreement
 to create this column, i used a conditionnal statement with two clauses and an else statement that stated:
