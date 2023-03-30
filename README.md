@@ -45,7 +45,7 @@ Else: Contract
 this provides information on the type of agreement the players have with their football clubs 
 
 ![contract before](https://user-images.githubusercontent.com/119857809/227742950-9af0422d-9546-4530-839c-0023a5a109d2.jpg),
-![Agreement after1](https://user-images.githubusercontent.com/119857809/228951214-0ba29ac5-7f77-434b-9cc7-a33329deadfe.jpg)
+![Agreement after1](https://user-images.githubusercontent.com/119857809/228951214-0ba29ac5-7f77-434b-9cc7-a33329deadfe.jpg),
 
 
 ###  Position
