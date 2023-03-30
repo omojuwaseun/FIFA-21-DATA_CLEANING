@@ -105,8 +105,7 @@ i also corrected the datatype accordingly
 ![wage value after](https://user-images.githubusercontent.com/119857809/227745043-4789594e-7e16-4c96-94f1-8a8738cc2fa8.jpg)
 
 ### IR,SM, W/F
-These columns had the star symbol in each row which represented their ratings and this was removed using the replace function and the data type was changed to numeric.
-
+These columns had the star symbol in each row which represented their ratings and this was removed using the replace function.
 ![ir,sm,wf before](https://user-images.githubusercontent.com/119857809/227745205-6885adc8-19c2-4ca9-bb55-d8856c96049c.jpg)
 ![ir,sm,wf after](https://user-images.githubusercontent.com/119857809/227745674-292cfe34-7676-48a6-9a20-e9201ac32f53.jpg)
 
@@ -120,7 +119,7 @@ where i multiplied values that had k in them by 1000 and then the appropriate da
 ![hits after](https://user-images.githubusercontent.com/119857809/227745253-d6cd6198-20fe-4f4a-9af3-4b29b5796ec5.jpg)
 
 ### Conclusion
-the fifa dataset was very messy, but participating in this challenge was a good way to improve my skills and learn more
+the fifa dataset was very messy, but participating in this challenge was a good way to improve my skills and help me understand power query better 
 The dataset has been transformed and is ready for analysis.
 
 
