@@ -46,6 +46,8 @@ this provides information on the type of agreement the players have with their f
 
 ![contract before](https://user-images.githubusercontent.com/119857809/227742950-9af0422d-9546-4530-839c-0023a5a109d2.jpg),
 ![Agreement after1](https://user-images.githubusercontent.com/119857809/228951214-0ba29ac5-7f77-434b-9cc7-a33329deadfe.jpg),
+![contract start](https://user-images.githubusercontent.com/119857809/228952497-054bdd1b-622d-4915-91e5-3262a85acc55.jpg)
+
 
 
 ###  Position
