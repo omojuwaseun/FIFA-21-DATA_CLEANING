@@ -90,7 +90,7 @@ else Number.From(Text.BeforeDelimiter ([Value],"K")) * 1000) * 1.07)
 ``` ( if Text.Contains([Wage],"K") then 
 Number.From( Text.BeforeDelimiter ([Wage], "K")) * 1000
 else Number.From( [Wage])) * 1.07)
-```
+``` 
 #### release clause
 ``` ( if Text.Contains ([Release Clause], "M") then 
 Number.From( Text.BeforeDelimiter ([Release Clause], "M")) * 1000000 
